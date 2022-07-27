@@ -365,7 +365,7 @@ def run_custom(
             # Save results (image with detections)
             if save_img:
                 if dataset.mode == 'image':
-                    cv2.imwrite("C:\\Users\\Fujitsu\\Desktop\\med\\realTime\\housni.png", im0) 
+                    #cv2.imwrite("C:\\Users\\Fujitsu\\Desktop\\med\\realTime\\housni.png", im0) 
                     return detected
 
 
